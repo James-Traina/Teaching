@@ -45,4 +45,4 @@ Understanding what causes wins is a kind of information. And evidently very valu
     - How do you find these opportunities?
     - How do you keep the value going?
 
-"The spice must flow..."
+> The spice must flow...
