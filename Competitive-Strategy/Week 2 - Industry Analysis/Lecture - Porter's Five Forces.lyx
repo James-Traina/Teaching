@@ -1,0 +1,785 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme{Madrid}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing other 1.5
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Porter's Five Forces
+\end_layout
+
+\begin_layout Subtitle
+Competitive Strategy, Lecture 2
+\end_layout
+
+\begin_layout Author
+James Traina
+\end_layout
+
+\begin_layout Institute
+traina@uchicago.edu
+\end_layout
+
+\begin_layout Date
+Spring 2021
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Overview of Today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Industry Profits
+\end_layout
+
+\begin_layout Itemize
+Five Forces Framework
+\end_layout
+
+\begin_layout Itemize
+Notes and Caveats
+\end_layout
+
+\begin_layout Itemize
+The Big Picture of CS
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Longrun Profitability (Ghemawat & Rivkin, 2014)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ghemawat & Rivkin (2014).png
+	lyxscale 60
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Pi(e) Economics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Industry Pi.png
+	lyxscale 60
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Demand ~ f(Marketing), Cost ~ f(Operations)
+\end_layout
+
+\begin_layout Itemize
+Today: Size of the Pie
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Porter's Five Forces Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Five Forces.png
+	lyxscale 60
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Threat of Substitutes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+New product or service meets the same needs in a different way
+\end_layout
+
+\begin_layout Itemize
+Examples
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Zoom vs travel
+\end_layout
+
+\begin_layout Itemize
+Email vs snailmail
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Extended example: Airlines
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Short travel – cars, buses, trains
+\end_layout
+
+\begin_layout Itemize
+Long travel?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Threat of Entrants
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Real constraints: laws of nature
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scale economies
+\end_layout
+
+\begin_layout Itemize
+Learning-by-doing
+\end_layout
+
+\begin_layout Itemize
+Brand equity
+\end_layout
+
+\begin_layout Itemize
+Relationships
+\end_layout
+
+\begin_layout Itemize
+Network effects
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Artificial constraints: imposed by society
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Real property rights, e.g.
+ mines
+\end_layout
+
+\begin_layout Itemize
+Production/use rights, e.g.
+ e.g.
+ patents
+\end_layout
+
+\begin_layout Itemize
+Licensing: liquor, taxi medallions, CPAs
+\end_layout
+
+\begin_layout Itemize
+Contractual, e.g.
+ exclusive and/or existing long-term
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Economies of Scale
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename EOS.png
+	lyxscale 60
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Learning-by-Doing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Costs fall with accumulated production
+\end_layout
+
+\begin_layout Itemize
+Example: Search engines
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Search engine market shares in October 2015 Google: 64% Bing: 34%
+\end_layout
+
+\begin_layout Itemize
+Bing launched in 2009, not profitable until October 2015 Losses of $1 billion/qu
+arter in 2011!
+\end_layout
+
+\begin_layout Itemize
+More market share = more searches = better results in future
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Branding
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Value (of product) rises with accumulated marketing efforts
+\end_layout
+
+\begin_layout Itemize
+Less mechanical and more cognitive/psychological than LBD
+\end_layout
+
+\begin_layout Itemize
+Certainly no less important
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Note 1: Market Definition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+FFF leaves open first order questions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Measure internal rivalry?
+\end_layout
+
+\begin_layout Itemize
+Draw the line between “rivals” and “extended rivals”?
+\end_layout
+
+\begin_layout Itemize
+Measure “extended rivalry”?
+\end_layout
+
+\begin_layout Itemize
+How far to extend? 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Example: Luxury car v.
+ SUV?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Note 2A: Costs Include Opportunity Costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename undergrad_costs.png
+	lyxscale 60
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Note 2B: Costs Include Opportunity Costs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename college_oc.png
+	lyxscale 60
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Note 3: Book Returns Are Not Market Returns
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+Price\sim\frac{Profits}{Risk}
+\]
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Cochrane (2018).png
+	lyxscale 60
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What Else is Missing with 5F?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Strategic Interaction
+\end_layout
+
+\begin_layout Itemize
+Competitive Advantage
+\end_layout
+
+\begin_layout Itemize
+Innovation
+\end_layout
+
+\begin_layout Itemize
+Dynamics
+\end_layout
+
+\begin_layout Itemize
+Risk
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+History of Economic Thought
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CS follows IO at about a decade lag
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+IO 70s: Structure-Conduct-Performance (Part 1)
+\end_layout
+
+\begin_layout Itemize
+IO 80s: Game Theory (Part 2)
+\end_layout
+
+\begin_layout Itemize
+IO 90s: Organizational Economics (Part 3)
+\end_layout
+
+\begin_layout Itemize
+IO 00s: New Empirical IO (Grad School)
+\end_layout
+
+\begin_layout Itemize
+IO 10s: Empirical Dynamics (Grad School)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Next Week: Value Creation and Capture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This week: How big is the pie?
+\end_layout
+
+\begin_layout Itemize
+Next week: How big is your slice?
+\end_layout
+
+\begin_layout Itemize
+From Industry to Firm
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Or, from Between-Industry to Within-Industry
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Huge differences in firm profitability within-industry
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+So what makes a firm capture value?
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document
