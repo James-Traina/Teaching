@@ -1,3 +1,14 @@
+Grade Distribution
+
+-   A: 30%
+-   A-: 40%
+-   B+: 30%
+-   ... lower $iff$ did not work.
+
+
+
+
+
 80min, so about 20 slides
 
 1.  Overview of Today
