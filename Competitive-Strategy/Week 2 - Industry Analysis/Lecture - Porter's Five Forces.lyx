@@ -8,7 +8,7 @@
 \begin_preamble
 \usetheme{Madrid}
 \end_preamble
-\use_default_options false
+\use_default_options true
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -18,7 +18,7 @@
 \font_sans "lmss" "default"
 \font_typewriter "lmtt" "default"
 \font_math "auto" "auto"
-\font_default_family default
+\font_default_family sfdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -36,8 +36,8 @@
 \use_hyperref false
 \papersize default
 \use_geometry true
-\use_package amsmath 2
-\use_package amssymb 2
+\use_package amsmath 1
+\use_package amssymb 1
 \use_package cancel 1
 \use_package esint 1
 \use_package mathdots 1
@@ -143,7 +143,7 @@ The Big Picture of CS
 status open
 
 \begin_layout Plain Layout
-Longrun Profitability (Ghemawat & Rivkin, 2014)
+Longrun Industry Profits (Ghemawat & Rivkin, 2014)
 \end_layout
 
 \end_inset
@@ -155,7 +155,7 @@ Longrun Profitability (Ghemawat & Rivkin, 2014)
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename Ghemawat & Rivkin (2014).png
+	filename Ghemawat & Rivkin (2014) - Industry Profits.png
 	lyxscale 60
 	width 90text%
 
@@ -253,7 +253,7 @@ Porter's Five Forces Framework
 status open
 
 \begin_layout Plain Layout
-Threat of Substitutes
+F1: Threat of Substitutes
 \end_layout
 
 \end_inset
@@ -263,7 +263,7 @@ Threat of Substitutes
 
 \begin_deeper
 \begin_layout Itemize
-New product or service meets the same needs in a different way
+Does a different product meet the same needs in a different way?
 \end_layout
 
 \begin_layout Itemize
@@ -307,7 +307,7 @@ Long travel?
 status open
 
 \begin_layout Plain Layout
-Threat of Entrants
+F2: Industry Rivalry
 \end_layout
 
 \end_inset
@@ -317,54 +317,30 @@ Threat of Entrants
 
 \begin_deeper
 \begin_layout Itemize
-Real constraints: laws of nature
+How tough is the competition between incumbents?
+\end_layout
+
+\begin_layout Itemize
+Think back to your microeconomics course
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Scale economies
-\end_layout
-
-\begin_layout Itemize
-Learning-by-doing
-\end_layout
-
-\begin_layout Itemize
-Brand equity
-\end_layout
-
-\begin_layout Itemize
-Relationships
-\end_layout
-
-\begin_layout Itemize
-Network effects
+Monopoly, oligopoly, monopolistic competition, perfect competition
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Artificial constraints: imposed by society
+Later in your econ career you'll learn about other forms of rivalry
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Real property rights, e.g.
- mines
+Oligopoly: Cournot, Bertrand, Stackelberg
 \end_layout
 
 \begin_layout Itemize
-Production/use rights, e.g.
- e.g.
- patents
-\end_layout
-
-\begin_layout Itemize
-Licensing: liquor, taxi medallions, CPAs
-\end_layout
-
-\begin_layout Itemize
-Contractual, e.g.
- exclusive and/or existing long-term
+Contestable markets and limit pricing
 \end_layout
 
 \end_deeper
@@ -381,7 +357,193 @@ Contractual, e.g.
 status open
 
 \begin_layout Plain Layout
-Economies of Scale
+F3: Buyer Bargaining Power
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How much can output prices deviate from competitive markets?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Can you charge a markup, i.e.
+ 
+\begin_inset Formula $P>MC$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+High if
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Output is not critical to buyer
+\end_layout
+
+\begin_layout Itemize
+Buyers are big / concentrated
+\end_layout
+
+\begin_layout Itemize
+Output is standardized
+\end_layout
+
+\begin_layout Itemize
+Buyer switching costs are low
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+F4: Supplier Bargaining Power
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How much do input prices deviate from competitive input markets?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Does 
+\begin_inset Formula $P=MC$
+\end_inset
+
+ for the suppliers?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+High if
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Input is critical to you
+\end_layout
+
+\begin_layout Itemize
+Suppliers are big / concentrated
+\end_layout
+
+\begin_layout Itemize
+Inputs are differentiated
+\end_layout
+
+\begin_layout Itemize
+Your switching costs are high
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+F5: Threat of Entrants
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Arguably the most force important in practice!
+\end_layout
+
+\begin_layout Itemize
+Economic constraints
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scale economies
+\end_layout
+
+\begin_layout Itemize
+Learning-by-doing
+\end_layout
+
+\begin_layout Itemize
+Brand equity
+\end_layout
+
+\begin_layout Itemize
+Network effects
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Legal constraints
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Real property rights, e.g.
+ mines
+\end_layout
+
+\begin_layout Itemize
+Production rights, e.g.
+ patents
+\end_layout
+
+\begin_layout Itemize
+Licensing, e.g.
+ taxi medallions
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+BTE 1: Economies of Scale
 \end_layout
 
 \end_inset
@@ -393,7 +555,7 @@ Economies of Scale
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename EOS.png
+	filename Economies of Scale.png
 	lyxscale 60
 	width 90text%
 
@@ -415,7 +577,7 @@ Economies of Scale
 status open
 
 \begin_layout Plain Layout
-Learning-by-Doing
+BTE 2: Learning-by-Doing
 \end_layout
 
 \end_inset
@@ -434,16 +596,27 @@ Example: Search engines
 
 \begin_deeper
 \begin_layout Itemize
-Search engine market shares in October 2015 Google: 64% Bing: 34%
+Market shares in October 2015: Google: 2/3, Bing 1/3
 \end_layout
 
 \begin_layout Itemize
-Bing launched in 2009, not profitable until October 2015 Losses of $1 billion/qu
-arter in 2011!
+Bing launched in 2009, but not profitable until 2015
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-More market share = more searches = better results in future
+Losses of $1 billion/quarter in 2011!
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Boston Consulting Group (BCG) coined the experience curve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Double accumulated production, cost decreases by 25%
 \end_layout
 
 \end_deeper
@@ -460,7 +633,7 @@ More market share = more searches = better results in future
 status open
 
 \begin_layout Plain Layout
-Branding
+BTE 3: Branding
 \end_layout
 
 \end_inset
@@ -470,15 +643,21 @@ Branding
 
 \begin_deeper
 \begin_layout Itemize
-Value (of product) rises with accumulated marketing efforts
+Value of the product increases with accumulated marketing
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Think of it like a capital stock
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Incumbents would have to match the stock, not the flow!
 \end_layout
 
 \begin_layout Itemize
-Less mechanical and more cognitive/psychological than LBD
-\end_layout
-
-\begin_layout Itemize
-Certainly no less important
+Key mechanism in the Cola Wars
 \end_layout
 
 \end_deeper
@@ -504,32 +683,57 @@ Note 1: Market Definition
 
 \begin_deeper
 \begin_layout Itemize
-FFF leaves open first order questions
+FFF leaves open first-order questions
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Measure internal rivalry?
+How do you measure internal rivalry?
 \end_layout
 
 \begin_layout Itemize
-Draw the line between “rivals” and “extended rivals”?
+How do you identify who's a rival?
 \end_layout
 
 \begin_layout Itemize
-Measure “extended rivalry”?
-\end_layout
-
-\begin_layout Itemize
-How far to extend? 
+How do you identify substitute products?
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Example: Luxury car v.
- SUV?
+Example: Whole Foods acquiring Wild Oats
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+If the market is 
+\begin_inset Quotes eld
+\end_inset
+
+grocery
+\begin_inset Quotes erd
+\end_inset
+
+, no problem
+\end_layout
+
+\begin_layout Itemize
+If the market is 
+\begin_inset Quotes eld
+\end_inset
+
+premium natural and organic supermarkets
+\begin_inset Quotes erd
+\end_inset
+
+...
+\end_layout
+
+\begin_layout Itemize
+The original ruling was overturned because of this problem!
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -543,7 +747,7 @@ Example: Luxury car v.
 status open
 
 \begin_layout Plain Layout
-Note 2A: Costs Include Opportunity Costs
+Note 2: Costs Include Opportunity Costs
 \end_layout
 
 \end_inset
@@ -555,9 +759,9 @@ Note 2A: Costs Include Opportunity Costs
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename undergrad_costs.png
+	filename Undergrad Costs.png
 	lyxscale 60
-	width 90text%
+	width 70text%
 
 \end_inset
 
@@ -577,7 +781,7 @@ Note 2A: Costs Include Opportunity Costs
 status open
 
 \begin_layout Plain Layout
-Note 2B: Costs Include Opportunity Costs
+Note 2: What Else Could You Be Doing?
 \end_layout
 
 \end_inset
@@ -589,7 +793,7 @@ Note 2B: Costs Include Opportunity Costs
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename college_oc.png
+	filename Charles, Hurst, & Notowidigdo (2018) - Fig 1 College.png
 	lyxscale 60
 	width 90text%
 
@@ -631,9 +835,9 @@ Price\sim\frac{Profits}{Risk}
 
 
 \begin_inset Graphics
-	filename Cochrane (2018).png
+	filename Cochrane (2018) - Blog.png
 	lyxscale 60
-	width 70text%
+	width 50text%
 
 \end_inset
 
@@ -663,6 +867,15 @@ What Else is Missing with 5F?
 
 \begin_deeper
 \begin_layout Itemize
+5F is a relatively static framework, but industries often change!
+\end_layout
+
+\begin_layout Itemize
+Missing dynamics of
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Strategic Interaction
 \end_layout
 
@@ -675,11 +888,12 @@ Innovation
 \end_layout
 
 \begin_layout Itemize
-Dynamics
+Risk
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
-Risk
+Try applying 5F to your favorite emerging tech company...
 \end_layout
 
 \end_deeper
