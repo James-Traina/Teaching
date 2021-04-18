@@ -50,7 +50,7 @@ Understanding what causes wins is a kind of information. And evidently very valu
 
 ## Questions for Next Week
 
-- How do you find these opportunities?
-- How do you keep the value going?
+1.  How do you find these opportunities?
+2.  How do you keep the value going?
 
 > The spice must flow...
