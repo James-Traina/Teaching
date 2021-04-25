@@ -1,0 +1,516 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme{Madrid}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing other 1.5
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Prisoner's Dilemma
+\end_layout
+
+\begin_layout Subtitle
+Competitive Strategy, Lecture 4
+\end_layout
+
+\begin_layout Author
+James Traina
+\end_layout
+
+\begin_layout Institute
+traina@uchicago.edu
+\end_layout
+
+\begin_layout Date
+Spring 2021
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Overview of Today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Introduction to Game Theory
+\end_layout
+
+\begin_layout Itemize
+Static Games
+\end_layout
+
+\begin_layout Itemize
+Competitive Analysis
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Game Theory vs Price Theory
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In Price Theory, rival actions were fixed
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Monopoly, MC, PC
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+In Game Theory, rival actions are conditional on your actions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cournot, Bertrand, Stackelberg
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Better tool to understand...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dynamics of competition/cooperation
+\end_layout
+
+\begin_layout Itemize
+Real world positioning
+\end_layout
+
+\begin_layout Itemize
+Value of commitment
+\end_layout
+
+\begin_layout Itemize
+Network effects
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Game Definitions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Players
+\end_layout
+
+\begin_layout Itemize
+Actions (aka moves)
+\end_layout
+
+\begin_layout Itemize
+Payoffs
+\end_layout
+
+\begin_layout Itemize
+Timing
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Simultaneous (aka static), e.g.
+ rock-paper-scissors
+\end_layout
+
+\begin_layout Itemize
+Sequential (aka dynamic), e.g.
+ tic-tac-toe
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Information and randomness beyond the scope of this course
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Best Responses
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solutions are *predictions* of how players will act
+\end_layout
+
+\begin_layout Itemize
+Strategies are fully-specified plans
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For every decision point, what's your move?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Solutions are mutual best response strategies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+No player can do better by unilaterally changing strategy
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Solving is easy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+For each player, write out each decision point and best response
+\end_layout
+
+\begin_layout Itemize
+Equilibrium is when best responses coincide
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example 1: Stag Hunt Cooperation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/Teaching/Reviews/Stag_Hunt_hunters_with_stag_and_rabbits.svg
+	lyxscale 60
+	height 80theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example 2: Prisoner's Dilemma Competition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename ../../../../Dropbox/Teaching/Reviews/Prisoners-dilemma-Nash-and-Pareto-equilibria.jpg
+	lyxscale 60
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bertrand Game
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firms compete on prices, all goods and consumers identical
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Undercutting rival’s price means getting all the demand
+\end_layout
+
+\begin_layout Itemize
+Only Nash Equilibrium is P=MC
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If goods are differentiated, cannot get all the demand, but similar logic
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Repeated Play
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Problem: Too much competition?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+solitary, poor, nasty, brutish, and short.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Solution: *repetition*
+\end_layout
+
+\begin_layout Itemize
+Often occurs at a 
+\begin_inset Quotes eld
+\end_inset
+
+reasonable
+\begin_inset Quotes erd
+\end_inset
+
+ focal point
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Retail: Department stores mark-up of 200%
+\end_layout
+
+\begin_layout Itemize
+Oil: OPEC maintains certain historical market shares
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Profits with Punishment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Profits with Repeated Play.png
+	lyxscale 60
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
