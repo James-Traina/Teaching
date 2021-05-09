@@ -8,7 +8,7 @@
 \begin_preamble
 \usetheme{Madrid}
 \end_preamble
-\use_default_options true
+\use_default_options false
 \maintain_unincluded_children false
 \language english
 \language_package default
@@ -18,7 +18,7 @@
 \font_sans "lmss" "default"
 \font_typewriter "lmtt" "default"
 \font_math "auto" "auto"
-\font_default_family sfdefault
+\font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -36,8 +36,8 @@
 \use_hyperref false
 \papersize default
 \use_geometry true
-\use_package amsmath 1
-\use_package amssymb 1
+\use_package amsmath 2
+\use_package amssymb 2
 \use_package cancel 1
 \use_package esint 1
 \use_package mathdots 1
@@ -81,11 +81,11 @@
 \begin_body
 
 \begin_layout Title
-Porter's Five Forces
+Dynamic Entry Games
 \end_layout
 
 \begin_layout Subtitle
-Competitive Strategy, Lecture 2
+Competitive Strategy, Lecture 6
 \end_layout
 
 \begin_layout Author
@@ -115,19 +115,33 @@ Overview of Today
 
 \begin_deeper
 \begin_layout Itemize
-Industry Profits
+Dynamic Games
 \end_layout
 
 \begin_layout Itemize
-Five Forces Framework
+Stackelberg
 \end_layout
 
 \begin_layout Itemize
-Notes and Caveats
+Entry Deterrence
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Predation
 \end_layout
 
 \begin_layout Itemize
-The Big Picture of CS
+Reputation
+\end_layout
+
+\begin_layout Itemize
+Signaling
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Entry Strategy
 \end_layout
 
 \end_deeper
@@ -143,7 +157,95 @@ The Big Picture of CS
 status open
 
 \begin_layout Plain Layout
-Longrun Industry Profits (Ghemawat & Rivkin, 2014)
+Dynamic Games Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dynamic games are when moves are 'sequential'
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Other player see your moves before making their own
+\end_layout
+
+\begin_layout Itemize
+Illustrated with a game *tree*
+\end_layout
+
+\begin_layout Itemize
+Strategies are *still* fully-specified plans
+\end_layout
+
+\begin_layout Itemize
+Solutions are *still* mutual best response strategies
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Backwards Induction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Solving is even easier than static games
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Start with the decision points at the end of the tree
+\end_layout
+
+\begin_layout Itemize
+Once you know how these play out, you can solve the next level up
+\end_layout
+
+\begin_layout Itemize
+(Given how bottom level plays, how should top level play?)
+\end_layout
+
+\begin_layout Itemize
+Sort of like Sudoku
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Warm-Up Example
 \end_layout
 
 \end_inset
@@ -153,11 +255,21 @@ Longrun Industry Profits (Ghemawat & Rivkin, 2014)
 
 \begin_deeper
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename Ghemawat & Rivkin (2014) - Industry Profits.png
-	lyxscale 60
-	width 90text%
+	filename Game_Theory_An_extensive_form_game.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -177,7 +289,7 @@ Longrun Industry Profits (Ghemawat & Rivkin, 2014)
 status open
 
 \begin_layout Plain Layout
-Pi(e) Economics
+Bigger Trees
 \end_layout
 
 \end_inset
@@ -187,23 +299,25 @@ Pi(e) Economics
 
 \begin_deeper
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename Industry Pi.png
-	lyxscale 60
-	width 70text%
+	filename Backwards_Induction_Example_2.png
+	lyxscale 50
+	width 80text%
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
-Demand ~ f(Marketing), Cost ~ f(Operations)
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Today: Size of the Pie
+
 \end_layout
 
 \end_deeper
@@ -219,7 +333,7 @@ Today: Size of the Pie
 status open
 
 \begin_layout Plain Layout
-Porter's Five Forces Framework
+Relationship to Static Games
 \end_layout
 
 \end_inset
@@ -229,11 +343,21 @@ Porter's Five Forces Framework
 
 \begin_deeper
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename Five Forces.png
-	lyxscale 60
-	width 90text%
+	filename Strategic-form-sequential.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -253,7 +377,7 @@ Porter's Five Forces Framework
 status open
 
 \begin_layout Plain Layout
-F1: Threat of Substitutes
+Stackelberg Competition: CVS vs Walgreens
 \end_layout
 
 \end_inset
@@ -263,37 +387,17 @@ F1: Threat of Substitutes
 
 \begin_deeper
 \begin_layout Itemize
-Does a different product meet the same needs in a different way?
+CVS has a store on a street corner
 \end_layout
 
 \begin_layout Itemize
-Examples
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Zoom vs travel
+Walgreens is considering entering across the street
 \end_layout
 
 \begin_layout Itemize
-Email vs snailmail
+If Walgreens enters, then CVS chooses pricing toughness
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-Extended example: Airlines
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Short travel – cars, buses, trains
-\end_layout
-
-\begin_layout Itemize
-Long travel?
-\end_layout
-
-\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -307,7 +411,7 @@ Long travel?
 status open
 
 \begin_layout Plain Layout
-F2: Industry Rivalry
+Stackelberg Competition: Game Tree
 \end_layout
 
 \end_inset
@@ -316,248 +420,22 @@ F2: Industry Rivalry
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-How tough is the competition between incumbents?
-\end_layout
-
-\begin_layout Itemize
-Think back to your microeconomics course
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Monopoly, oligopoly, monopolistic competition, perfect competition
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Later in your econ career you'll learn about other forms of rivalry
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Oligopoly: Cournot, Bertrand, Stackelberg
-\end_layout
-
-\begin_layout Itemize
-Contestable markets and limit pricing
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-F3: Buyer Bargaining Power
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How much can output prices deviate from competitive markets?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Can you charge a markup, i.e.
- 
-\begin_inset Formula $P>MC$
-\end_inset
-
-?
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-High if
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Output is not critical to buyer
-\end_layout
-
-\begin_layout Itemize
-Buyers are big / concentrated
-\end_layout
-
-\begin_layout Itemize
-Output is standardized
-\end_layout
-
-\begin_layout Itemize
-Buyer switching costs are low
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-F4: Supplier Bargaining Power
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How much do input prices deviate from competitive input markets?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Does 
-\begin_inset Formula $P=MC$
-\end_inset
-
- for the suppliers?
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-High if
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Input is critical to you
-\end_layout
-
-\begin_layout Itemize
-Suppliers are big / concentrated
-\end_layout
-
-\begin_layout Itemize
-Inputs are differentiated
-\end_layout
-
-\begin_layout Itemize
-Your switching costs are high
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-F5: Threat of Entrants
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Arguably the most force important in practice!
-\end_layout
-
-\begin_layout Itemize
-Economic constraints
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Scale economies
-\end_layout
-
-\begin_layout Itemize
-Learning-by-doing
-\end_layout
-
-\begin_layout Itemize
-Brand equity
-\end_layout
-
-\begin_layout Itemize
-Network effects
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Legal constraints
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Real property rights, e.g.
- mines
-\end_layout
-
-\begin_layout Itemize
-Production rights, e.g.
- patents
-\end_layout
-
-\begin_layout Itemize
-Licensing, e.g.
- taxi medallions
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-BTE 1: Economies of Scale
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\align center
 \begin_inset Graphics
-	filename Economies of Scale.png
-	lyxscale 60
-	width 90text%
+	filename Firm-entering-market-Game-theory.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -577,7 +455,7 @@ BTE 1: Economies of Scale
 status open
 
 \begin_layout Plain Layout
-BTE 2: Learning-by-Doing
+The Power of Commitment 
 \end_layout
 
 \end_inset
@@ -587,36 +465,20 @@ BTE 2: Learning-by-Doing
 
 \begin_deeper
 \begin_layout Itemize
-Costs fall with accumulated production
+CVS would like Walgreens to not enter
 \end_layout
 
 \begin_layout Itemize
-Example: Search engines
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Market shares in October 2015: Google: 2/3, Bing 1/3
-\end_layout
-
-\begin_layout Itemize
-Bing launched in 2009, but not profitable until 2015
+What can CVS do to get this outcome?
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Losses of $1 billion/quarter in 2011!
+CVS would like to commit to Fight
 \end_layout
 
-\end_deeper
-\end_deeper
 \begin_layout Itemize
-Boston Consulting Group (BCG) coined the experience curve
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Double accumulated production, cost decreases by 25%
+If it can, then Walgreens chooses to Not Enter
 \end_layout
 
 \end_deeper
@@ -633,7 +495,7 @@ Double accumulated production, cost decreases by 25%
 status open
 
 \begin_layout Plain Layout
-BTE 3: Branding
+Is Your Commitment Credible?
 \end_layout
 
 \end_inset
@@ -643,94 +505,69 @@ BTE 3: Branding
 
 \begin_deeper
 \begin_layout Itemize
-Value of the product increases with accumulated marketing
+How do you commit?
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Think of it like a capital stock
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Incumbents would have to match the stock, not the flow!
-\end_layout
-
-\begin_layout Itemize
-Key mechanism in the Cola Wars
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Note 1: Market Definition
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-FFF leaves open first-order questions
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-How do you measure internal rivalry?
-\end_layout
-
-\begin_layout Itemize
-How do you identify who's a rival?
-\end_layout
-
-\begin_layout Itemize
-How do you identify substitute products?
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Example: Whole Foods acquiring Wild Oats
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-If the market is 
 \begin_inset Quotes eld
 \end_inset
 
-grocery
+Let’s run them out of business if they try to enter
 \begin_inset Quotes erd
 \end_inset
 
-, no problem
+
 \end_layout
 
 \begin_layout Itemize
-If the market is 
 \begin_inset Quotes eld
 \end_inset
 
-premium natural and organic supermarkets
+Let’s price low now to 'deter' entry later
 \begin_inset Quotes erd
 \end_inset
 
-...
+
 \end_layout
 
 \begin_layout Itemize
-The original ruling was overturned because of this problem!
+\begin_inset Quotes eld
+\end_inset
+
+Let’s 'signal' we’re going to fight
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Others?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Are these credible?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+i.e.
+ optimal once you get there?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Need *irreversible investments* (impossible or costly) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ marriage and divorce
 \end_layout
 
 \end_deeper
@@ -747,7 +584,67 @@ The original ruling was overturned because of this problem!
 status open
 
 \begin_layout Plain Layout
-Note 2: Costs Include Opportunity Costs
+Predation Doesn't Really Work
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Predation is pricing lower than o/w optimal to push out rivals
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Technically illegal, but almost all cases lost in court
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+But entrant’s losses from the fight are sunk...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+...so won’t affect subsequent decisions!
+\end_layout
+
+\begin_layout Itemize
+Predation hurts the predator as much as the prey!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Caveat: predation can bankrupt illiquid entrants
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Not often relevant in practice
+\end_layout
+
+\begin_layout Itemize
+(by the time you care, they're big enough to get financing)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Predation Game Tree
 \end_layout
 
 \end_inset
@@ -757,11 +654,21 @@ Note 2: Costs Include Opportunity Costs
 
 \begin_deeper
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename Undergrad Costs.png
-	lyxscale 60
-	width 70text%
+	filename Predation.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -781,7 +688,117 @@ Note 2: Costs Include Opportunity Costs
 status open
 
 \begin_layout Plain Layout
-Note 2: What Else Could You Be Doing?
+Contestable Markets 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Different payoffs can lead to 
+\begin_inset Quotes eld
+\end_inset
+
+hit and run" competition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If incumbent raises prices, rival enters market to capture profit
+\end_layout
+
+\begin_layout Itemize
+Incumbent then has to lower prices to compete
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Because of this threat, monopolist might have to price competitively
+\end_layout
+
+\begin_layout Itemize
+What prevents this?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+BTE (Industry Analysis), product differentiation...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Game theory exercise: change payoffs in previous slide to model
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Reputation Can Work, Though Very Costly
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose incumbent faces many potential future competitors
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ large company with many patents
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Incumbent faces potential entry many, many times
+\end_layout
+
+\begin_layout Itemize
+Fighting today might keep entrants out tomorrow
+\end_layout
+
+\begin_layout Itemize
+Warning: needs irreversible decisions that are unprofitable in isolation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+e.g.
+ setting prices that lose money for a particular store forever
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Reputation Game Tree
 \end_layout
 
 \end_inset
@@ -791,11 +808,21 @@ Note 2: What Else Could You Be Doing?
 
 \begin_deeper
 \begin_layout Standard
-\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename Charles, Hurst, & Notowidigdo (2018) - Fig 1 College.png
-	lyxscale 60
-	width 90text%
+	filename Reputation.png
+	lyxscale 50
+	width 60text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -815,7 +842,7 @@ Note 2: What Else Could You Be Doing?
 status open
 
 \begin_layout Plain Layout
-Note 3: Book Returns Are Not Market Returns
+A Political Example
 \end_layout
 
 \end_inset
@@ -825,19 +852,21 @@ Note 3: Book Returns Are Not Market Returns
 
 \begin_deeper
 \begin_layout Standard
-\align center
-\begin_inset Formula 
-\[
-Price\sim\frac{Profits}{Risk}
-\]
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
-\end_inset
-
-
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename Cochrane (2018) - Blog.png
-	lyxscale 60
-	width 50text%
+	filename Trump.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -857,7 +886,7 @@ Price\sim\frac{Profits}{Risk}
 status open
 
 \begin_layout Plain Layout
-What Else is Missing with 5F?
+Signaling Setup
 \end_layout
 
 \end_inset
@@ -867,34 +896,20 @@ What Else is Missing with 5F?
 
 \begin_deeper
 \begin_layout Itemize
-5F is a relatively static framework, but industries often change in big
- ways!
+Incumbents can be high or low type (e.g.
+ efficient or not)
 \end_layout
 
 \begin_layout Itemize
-Missing dynamics of
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Strategic Interaction
+Entrants do not know what type of incumbent they face
 \end_layout
 
 \begin_layout Itemize
-Competitive Advantage
+Entrant would *enter* if it knew incumbent was high cost type
 \end_layout
 
 \begin_layout Itemize
-Innovation
-\end_layout
-
-\begin_layout Itemize
-Risk
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Try applying 5F to your favorite emerging tech company...
+Entrant would *not enter* if it knew incumbent was low cost type
 \end_layout
 
 \end_deeper
@@ -910,7 +925,51 @@ Try applying 5F to your favorite emerging tech company...
 status open
 
 \begin_layout Plain Layout
-History of Economic Thought
+Signaling Can Be Useful (Even, Only) If Costly
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Peacock_Plumage.jpg
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Signaling Discussion
 \end_layout
 
 \end_inset
@@ -920,28 +979,46 @@ History of Economic Thought
 
 \begin_deeper
 \begin_layout Itemize
-CS follows IO at about a decade lag
+Do something only high types would want to do
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-IO 70s: Structure-Conduct-Performance (Part 1)
+Big public donations (
+\begin_inset Quotes eld
+\end_inset
+
+you can afford it
+\begin_inset Quotes erd
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Itemize
-IO 80s: Game Theory (Part 2)
+Price promotions, advertising
 \end_layout
 
 \begin_layout Itemize
-IO 90s: Organizational Economics (Part 3)
+Others?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Outside of business economics
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Unfit but pretty peacocks die
 \end_layout
 
 \begin_layout Itemize
-IO 00s: New Empirical IO (Grad School)
+Students without dedication and skills suffer at UChicago
 \end_layout
 
 \begin_layout Itemize
-IO 10s: Empirical Dynamics (Grad School)
+Others?
 \end_layout
 
 \end_deeper
@@ -958,7 +1035,7 @@ IO 10s: Empirical Dynamics (Grad School)
 status open
 
 \begin_layout Plain Layout
-Next Week: Value Creation and Capture
+Defence Against the Dark Arts
 \end_layout
 
 \end_inset
@@ -968,30 +1045,183 @@ Next Week: Value Creation and Capture
 
 \begin_deeper
 \begin_layout Itemize
-This week: How big is the pie?
-\end_layout
-
-\begin_layout Itemize
-Next week: How big is your slice?
-\end_layout
-
-\begin_layout Itemize
-From Industry to Firm
+Now consider the problem from the entrant’s prospective
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Or, from Between-Industry to Within-Industry
+Entry decision weighs expected profits against sunk entry costs
+\end_layout
+
+\begin_layout Itemize
+Profits depend on deterrence-related factors
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Huge differences in firm profitability within-industry
+These are simply incumbent considerations in reverse!
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-So what makes a firm capture value?
+Solution requires backwards induction
+\end_layout
+
+\begin_layout Itemize
+Must think carefully about timing and uncertainty
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Features of the game that were opportunities for incumbents are threats
+ to incumbents
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Entry Strategies
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Do not ignore predation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Be ready to borrow, build a war chest
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Do not ignore reputational issues for incumbent
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you enter in Chicago, others may try in NYC, Philly...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Do not ignore uncertainty about the type of incumbent you face
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pay close attention to costly signals
+\end_layout
+
+\begin_layout Itemize
+Ignore cheap talk
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Master the Poke Flute
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Snorlax.png
+	lyxscale 50
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Disarm Yourself
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Don't wake the sleeping giant!
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Commit to be small and targeted
+\end_layout
+
+\begin_layout Itemize
+Commit to avoiding incumbent
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How to commit? Same tools as incumbent
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+*Irreversible investments* (impossible or costly) 
 \end_layout
 
 \end_deeper
