@@ -1,0 +1,843 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme{Madrid}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing other 1.5
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Organizational Economics
+\end_layout
+
+\begin_layout Subtitle
+Competitive Strategy, Lecture 8
+\end_layout
+
+\begin_layout Author
+James Traina
+\end_layout
+
+\begin_layout Institute
+traina@uchicago.edu
+\end_layout
+
+\begin_layout Date
+Spring 2021
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Overview of Today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Between Firms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Mergers & Acquisitions
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Within Firms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Organizational Structure
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Between Firms: Mergers & Acquisitions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interchangeable phrases
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Make vs buy
+\end_layout
+
+\begin_layout Itemize
+Integration vs arm’s length transactions
+\end_layout
+
+\begin_layout Itemize
+In-house vs outsource
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+If markets work, we should isolate our competency and focus
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+...
+ but it turns out there are problems with this approach
+\end_layout
+
+\begin_layout Itemize
+...
+ and you will face them when you leave the classroom
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Types of Integration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Horizontal
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Different business units at the same level in the supply chain
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ Facebook & Instagram, Facebook & WhatsApp
+\end_layout
+
+\begin_layout Itemize
+Antitrust implications are questionable
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Vertical
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Business units at different levels of the supply chain
+\end_layout
+
+\begin_layout Itemize
+i.e.
+ suppliers and buyers
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ AT&T and Time Warner
+\end_layout
+
+\begin_layout Itemize
+Almost always OK for antitrust
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Key Idea: Pass the Three Tests
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+When Should You Integrate?
+\end_layout
+
+\begin_layout Itemize
+Three Test Framework
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Synergies Test: Does it create value in the corporation?
+\end_layout
+
+\begin_layout Enumerate
+Costs Test: Are benefits greater than the cost of corporate overhead?
+\end_layout
+
+\begin_layout Enumerate
+Price Test: Do we create more value than other possible parents?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Synergies Test
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scale synergies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Overhead costs with all businesses
+\end_layout
+
+\begin_layout Itemize
+Management and managerial practices
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Revenue synergies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Customer base (e.g.
+ cross-selling)
+\end_layout
+
+\begin_layout Itemize
+Brand capital
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Knowledge Synergies
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Marketing and customer data
+\end_layout
+
+\begin_layout Itemize
+Technical know-how
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Costs Test: The Setup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Principal-Agent problems!
+\end_layout
+
+\begin_layout Itemize
+Explained by Example: Management Consulting
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm owns brand, you work for firm
+\end_layout
+
+\begin_layout Itemize
+Quality of their advice depends on number of your insights
+\end_layout
+
+\begin_layout Itemize
+Insightful analysis requires effort
+\end_layout
+
+\begin_layout Itemize
+They keep revenue, and you receive a wage
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Costs Test: The Problem
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consulting firm does not know…
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Type of worker
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Brilliant and boneheaded people both apply
+\end_layout
+
+\begin_layout Itemize
+Brains of employee hidden from employer
+\end_layout
+
+\begin_layout Itemize
+In jargon, adverse selection
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Actions of worker
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Regardless of type, everyone shirks
+\end_layout
+
+\begin_layout Itemize
+Effort of employee hidden from employer
+\end_layout
+
+\begin_layout Itemize
+In jargon, moral hazard
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Price Test
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scope and diversification
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Diversification does not create value on average
+\end_layout
+
+\begin_layout Itemize
+But important to recognize exceptions!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The price is right
+\begin_inset Quotes erd
+\end_inset
+
+ principle
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Why would it be different for you?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How valuable would the business unit be on its own?
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Within Firms: Organizational Structure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+How can...
+ fragments of knowledge existing in different minds bring about results
+ which...
+ to be brought about deliberately, would require a knowledge on the part
+ of the directing mind which no single person can possess?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Key problem: knowledge (information, skills, ideas) is dispersed
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Key Idea: Pair Decisions with Knowledge
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Benefit 1: Decisions are more efficient!
+\end_layout
+
+\begin_layout Itemize
+Benefit 2: Bigger incentive to acquire knowledge!
+\end_layout
+
+\begin_layout Itemize
+How do we implement this pairing?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Centralization: Move Knowledge to Decisions
+\end_layout
+
+\begin_layout Itemize
+Decentralization: Move Decisions to Knowledge
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Consideration 1: General vs Specific Knowledge
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How costly is transmission?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+General knowledge is cheap 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Centralize
+\end_layout
+
+\begin_layout Itemize
+Specific knowledge is expensive 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ Decentralize
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Communication Costs.png
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+What Makes Knowledge General vs Specific?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Characteristics (No = General, Yes = Specific)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Perishable? - must be acted on quickly or loses value
+\end_layout
+
+\begin_layout Itemize
+Complex? - many dimensions, interdependencies
+\end_layout
+
+\begin_layout Itemize
+Technical? - requires specialized skills to understand
+\end_layout
+
+\begin_layout Itemize
+Unforseeable? - environment is changing, random
+\end_layout
+
+\begin_layout Itemize
+Subjective? - hard to describe rigorously
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Consideration 2: Decision Maker Quality
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How good are the decision makers?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Make sure the decision maker can use the knowledge!
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Centralization is better when...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+More certain environments
+\end_layout
+
+\begin_layout Itemize
+Known best practices
+\end_layout
+
+\begin_layout Itemize
+Concentrated managerial skills
+\end_layout
+
+\begin_layout Itemize
+Coordination is more important
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Vice versa for decentralization
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Visualizing the Centralization Tradeoffs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Organization Tradeoffs.png
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

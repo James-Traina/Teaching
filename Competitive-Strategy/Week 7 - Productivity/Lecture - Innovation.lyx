@@ -1,0 +1,766 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass beamer
+\begin_preamble
+\usetheme{Madrid}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "lmodern" "default"
+\font_sans "lmss" "default"
+\font_typewriter "lmtt" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing other 1.5
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Innovation
+\end_layout
+
+\begin_layout Subtitle
+Competitive Strategy, Lecture 7
+\end_layout
+
+\begin_layout Author
+James Traina
+\end_layout
+
+\begin_layout Institute
+traina@uchicago.edu
+\end_layout
+
+\begin_layout Date
+Spring 2021
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Overview of Today
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Value Creation in Innovation
+\end_layout
+
+\begin_layout Itemize
+Value Capture in Innovation
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Warm-Up: Innovator Tradeoffs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Advantages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SR: Monopoly power
+\end_layout
+
+\begin_layout Itemize
+LR: Reputation, switching costs, learning curves
+\end_layout
+
+\begin_layout Itemize
+Deterrence: Marketing, locking up key inputs
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Disadvantages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hard to protect (patents?)
+\end_layout
+
+\begin_layout Itemize
+Harder to prevent leapfrogging
+\end_layout
+
+\begin_layout Itemize
+Uncertainty about market size, structure, regulation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Does the Innovation Create Value?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Should be straightforward to identify the value created
+\end_layout
+
+\begin_layout Itemize
+However...
+\end_layout
+
+\begin_layout Itemize
+Diffusion paths are very difficult to predict!
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Will the new technology take off?
+\end_layout
+
+\begin_layout Itemize
+How fast?
+\end_layout
+
+\begin_layout Itemize
+Will it substitute for existing, or be complementary with it?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Diffusion of CT Scanners by Hospital Size
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename CT Scanners.png
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example 1: The CT Scanner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+EMI & the CT Scanner
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+US demand dropped dramatically
+\end_layout
+
+\begin_layout Itemize
+Saturation level of 6/million people nearly reached by 1981
+\end_layout
+
+\begin_layout Itemize
+Major price competition with 12 competitors at the peak
+\end_layout
+
+\begin_layout Itemize
+Hounsfield receives Nobel Prize in 1979
+\end_layout
+
+\begin_layout Itemize
+EMI taken over by Thorn Electric in response to cash crisis
+\end_layout
+
+\begin_layout Itemize
+GE buys Medical Division
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Difficult to forecast demand even when tremendous value is created!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Industry Life Cycle as an S curve
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename S Curves.png
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Example 2: Buggies and Cars
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Horse_and_buggy_1910.jpg
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename Cars.png
+	lyxscale 50
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Christensen: Listen Closely to Your Customers??
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Disruption.png
+	lyxscale 50
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Managerial Implications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The Chasm (Moore, 1991)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+“Enthusiasts”: want something new, want to play with it
+\end_layout
+
+\begin_layout Itemize
+“Pragmatists”: want something that works
+\end_layout
+
+\begin_layout Itemize
+Huge gap between early adopters and “majority”
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pioneer innovators face difficulties riding the diffusion curve
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Commercializing in-house is difficult
+\end_layout
+
+\begin_layout Itemize
+Firm faces greatest competition precisely when adoption ‘takes-off’
+\end_layout
+
+\begin_layout Itemize
+Make it difficult for entrants to copy
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Capturing Value From an Innovation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Obstacle 1: Difficulty of trading
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Selling, licensing
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Obstacle 2: Need for complementary assets
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Rents go to those who have them!
+\end_layout
+
+\begin_layout Itemize
+e.g.
+ entertainment industries
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Intangibles vs Tangibles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Intangibles.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Potential Sources of Appropriability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Intellectual property protection
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Patents
+\end_layout
+
+\begin_layout Itemize
+Copyrights
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Secrecy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Trade secrets
+\end_layout
+
+\begin_layout Itemize
+Non-compete clauses
+\end_layout
+
+\begin_layout Itemize
+Complexity and “tacit” knowledge
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Speed
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assess Control of Complementary Assets
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Suppose the innovation was developed by external start-up team
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Would the start-up consider you the ideal partner?
+\end_layout
+
+\begin_layout Itemize
+Or a potential competitor?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Firm controls stage-specific assets if first is true
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Examples?
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Wrap-Up
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Enormous difficulty of forecasting demand 
+\end_layout
+
+\begin_layout Itemize
+Innovator
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Capturing short run: IP
+\end_layout
+
+\begin_layout Itemize
+Capturing long run: Complementary assets
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_body
+\end_document
