@@ -37,7 +37,7 @@
 
 Understanding what causes wins is a kind of information. And evidently very valuable!
 
-![Valuation](Hakes & Sauer (2006) - Tab 3 On-Base Valuation.png)
+![Valuation](Hakes & Sauer (2006) - Tab 3 Valuation.png)
 
 ... but other teams learned very quickly once Michael Lewis published Moneyball (2003). Look at On-Base coefficient over time!
 
