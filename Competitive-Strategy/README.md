@@ -1,4 +1,4 @@
-Competitive Strategy BUSN 20900
+# Competitive Strategy - BUSN 20900
 
 This course applies microeconomics and game theory to analyze firm decision-making. We'll cover topics such as competitive advantage, entry, firm scope, and network effects. We'll split class time between lectures, case discussions, and student presentations. The course is entirely remote via Zoom: the lectures and discussions are live and recorded for later review. Attendance at all lectures and discussions is expected.
 
