@@ -1,0 +1,464 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options false
+\begin_modules
+customHeadersFooters
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Left Header
+James Traina
+\begin_inset Newline newline
+\end_inset
+
+traina@uchicago.edu
+\end_layout
+
+\begin_layout Right Header
+Competitive Strategy
+\begin_inset Newline newline
+\end_inset
+
+BUSN 20900
+\end_layout
+
+\begin_layout Title
+Competitive Strategy Syllabus
+\end_layout
+
+\begin_layout Author
+James Traina
+\end_layout
+
+\begin_layout Date
+Spring 2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{fancy}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+This course applies microeconomics and game theory to analyze firm decision-maki
+ng.
+ We'll cover topics such as competitive advantage, entry, firm scope, and
+ network effects.
+ We'll split class time between lectures, case discussions, and student
+ presentations.
+ The course is entirely remote via Zoom: the lectures and discussions are
+ live and recorded for later review.
+ Attendance at all lectures and discussions is expected.
+\end_layout
+
+\begin_layout Standard
+I've designed the course for students familiar with intermediate microeconomics
+ and beginner game theory.
+ Microeconomics is a requirement, and I'll assume prior proficiency.
+ For game theory, I'll provide optional reading materials to get everyone
+ up to speed.
+ Students can contact me if they're unsure whether they have sufficient
+ background for the course.
+\end_layout
+
+\begin_layout Section
+Materials, TA, and Office Hours
+\end_layout
+
+\begin_layout Standard
+This course does not require a textbook.
+ Rather, all materials are either posted to Canvas or readily available
+ online for free/cheap.
+\end_layout
+
+\begin_layout Standard
+The teaching assistant for the course is Jordan Rosenthal-Kay.
+ For any questions, comments, or concerns, please jointly email both of
+ us with "BUSN 20900" in the title.
+ If the issue needs a response in under 32 hours, please include "URGENT"
+ in the title.
+\end_layout
+
+\begin_layout Standard
+Office hours are by appointment only, just email me and we'll set up a time.
+ For content-related questions, I highly recommend first discussing in study
+ groups or with class peers -- some of the best learning experiences come
+ from other students! If you feel lost at any point, please email me as
+ soon as possible so we can get you back on track.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Requirements and Grading
+\end_layout
+
+\begin_layout Standard
+The grading breakdown is as follows.
+\end_layout
+
+\begin_layout Itemize
+Case memos (30%, each week)
+\end_layout
+
+\begin_layout Itemize
+Quality participation (30%, each week)
+\end_layout
+
+\begin_layout Itemize
+Blog posts and comments (20%, weeks 4-6)
+\end_layout
+
+\begin_layout Itemize
+Group presentations (20%, weeks 7-9)
+\end_layout
+
+\begin_layout Standard
+Unlike with most courses in the College, students may not take this class
+ as Pass/Fail.
+\end_layout
+
+\begin_layout Subsection
+Case Memos
+\end_layout
+
+\begin_layout Standard
+We'll devote Thursdays primarily to case discussion.
+ I'll provide a set of study questions for you to consider as you read the
+ case.
+ Each week, you'll turn in a clear, concise, and persuasive answer memo
+ to your choice of one of these questions.
+ Excellent memos apply course concepts backed by evidence from the case
+ to succinctly capture the main theme for that week.
+ They explain and elaborate, and answer the "why" behind the question.
+ You can discuss the questions with your classmates, but the written response
+ must be entirely your own.
+ Please keep the length between 300-400 words.
+\end_layout
+
+\begin_layout Standard
+Memos are due at 09:00 CT before the respective case discussion class on
+ Thursdays.
+ They'll be marked for completion.
+ If you're at a grade cutoff at the end of the course, I'll revisit your
+ memos to check for the typical quality of response, which will determine
+ on which side of the cutoff you'll fall.
+\end_layout
+
+\begin_layout Subsection
+Quality Participation
+\end_layout
+
+\begin_layout Standard
+To facilitate a more organized discussion in such a large class, each case
+ will have a discussion panel.
+ Panelists will be able to engage freely.
+ The rest of the class can submit questions and comments via chat, which
+ I and the panelists will monitor and incorporate throughout.
+\end_layout
+
+\begin_layout Standard
+I'll randomly allocate each student to 3 panels at the start of the quarter,
+ but only announce the day's panel members at the start of Thursday's class.
+ Consequently, all students are expected to come prepared.
+ Both panelists and class participation through the chat will count toward
+ your participation grade, with more weight put on your contribution as
+ a panelist.
+\end_layout
+
+\begin_layout Standard
+We'll start our discussions with a crowdsourced summary of the case, and
+ then go through the study questions.
+ I'll mark participation using the following criteria:
+\end_layout
+
+\begin_layout Itemize
+Are the points made relevant to the discussion?
+\end_layout
+
+\begin_layout Itemize
+Are they linked to the comments of others and to the themes that the class
+ is exploring together?
+\end_layout
+
+\begin_layout Itemize
+Is there a willingness to challenge the ideas expressed?
+\end_layout
+
+\begin_layout Itemize
+Is the participant integrating class materials into the case?
+\end_layout
+
+\begin_layout Itemize
+Do the comments reflect cumulative learning over the course?
+\end_layout
+
+\begin_layout Standard
+You are all collaborators in the learning environment, so remember to be
+ mindful and respectful!
+\end_layout
+
+\begin_layout Subsection
+Blog Posts and Comments
+\end_layout
+
+\begin_layout Standard
+In Part 2 of the course (weeks 4-6), we'll use Canvas to share and comment
+ on articles related to course concepts.
+ Each student will share one article from a reliable source, and succinctly
+ explain how it relates to the course.
+ Each student will also comment on two distinct articles (or their comments)
+ posted by their classmates.
+ The format is up to you, but excellent posts and comments follow similar
+ guidelines as quality participation -- they contribute to the broader class
+ learning experience.
+ All posts and comments should be of a similar length as case memos (300-400
+ words).
+\end_layout
+
+\begin_layout Standard
+Blog posts and comments are due any time throughout weeks 4-6.
+ However, there are two incentives to post early.
+ First, you must share your own article before commenting.
+ Second, posts or comments that generate higher-quality discussion will
+ receive points for extra credit.
+ They're otherwise graded like memos -- on completion, with a revisit for
+ quality if you're at a grade cutoff at the end of the course.
+\end_layout
+
+\begin_layout Subsection
+Group Presentations
+\end_layout
+
+\begin_layout Standard
+In Part 3 of the course (weeks 7-9), we'll host group presentations during
+ class.
+ I'll randomly assign each student to a group, and each group to a course
+ concept.
+ Though it'll depend on the final class size, I'm anticipating about 6 students
+ per group.
+ You'll find original and well-suited examples to illustrate their assigned
+ course concept, similar to the blog posts, and present to the class on
+ it for about 10-20 minutes.
+\end_layout
+
+\begin_layout Section
+Honor Code
+\end_layout
+
+\begin_layout Standard
+Students are required to adhere to the Chicago Booth Honor Code and Standards
+ of Scholarship and Professionalism, which includes:
+\end_layout
+
+\begin_layout Itemize
+Not misrepresenting another's work as your own
+\end_layout
+
+\begin_layout Itemize
+Not soliticing or receiving materials, notes, or case discussion points
+ from students not in the section (you may freely discuss with other students
+ in the section)
+\end_layout
+
+\begin_layout Itemize
+Reporting known Honor Code violations
+\end_layout
+
+\begin_layout Standard
+When in doubt, email me!
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Standard
+The class meets Tuesdays and Thursdays from 09:40-11:00 CT.
+ I'll lecture on Tuesdays and reserve discussion for Thursdays.
+ Please read the non-case material before Tuesday's class.
+ On Thursday evenings, I'll post the next week's materials and assignment
+ details on Canvas.
+ The schedule of topics is as follows.
+\end_layout
+
+\begin_layout Itemize
+Classical Competitive Strategy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Week 1 – Profits in Equilibrium
+\end_layout
+
+\begin_layout Itemize
+Week 2 – Industry Analysis
+\end_layout
+
+\begin_layout Itemize
+Week 3 – Competitive Advantage
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Strategic Interaction
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Week 4 – Rivalry
+\end_layout
+
+\begin_layout Itemize
+Week 5 – Product Differentiation
+\end_layout
+
+\begin_layout Itemize
+Week 6 – Entry and Deterrence
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Technology and Corporate Strategy
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Week 7 – Productivity
+\end_layout
+
+\begin_layout Itemize
+Week 8 – Scope
+\end_layout
+
+\begin_layout Itemize
+Week 9 – Network Effects
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Addendum
+\end_layout
+
+\begin_layout Standard
+To preserve student privacy, all recordings are confidential, privileged,
+ and only for the information of the intended recipient.
+ They may not be used, published, or redistributed.
+ The rest of the material is protected under the Creative Commons Attribution
+ license -- just cite me!
+\end_layout
+
+\begin_layout Standard
+The University of Chicago is committed to ensuring the full participation
+ of all students in its programs.
+ If you have a documented disability (or think you may have a disability)
+ and, as a result, need a reasonable accommodation to participate in class,
+ complete course requirements, or benefit from the University's programs
+ or services, please contact Student Disability Services as soon as possible.
+ To receive a reasonable accommodation, you must be appropriately registered
+ with Student Disability Services.
+ Please contact the office at 773-702- 6000/TTY 773-795-1186 or disabilities@uch
+icago.edu, or visit http://disabilities.uchicago.edu/.
+ Student Disability Services is located at 5501 S Ellis Ave.
+\end_layout
+
+\begin_layout Standard
+Graduating students will be able to receive early final grades if and only
+ if the course is needed for degree requirements.
+ The Booth Registrar's Office staff will be in touch with students in week
+ 2 to determine eligibility.
+\end_layout
+
+\end_body
+\end_document
